@@ -1,6 +1,6 @@
 # Ciallo～(∠・ω< )⌒☆
 
-一个本地运行的显卡收益看板 + 一键开挖工具。选币、看收益、填钱包、开挖，四步搞定。
+一个本地运行的显卡挖矿工具：选币看收益、填钱包、一键开挖，四步搞定。
 
 ![概览](_shots/dashboard.png)
 
@@ -61,9 +61,9 @@
 
 **内核下载失败？** 设置里「教程与数据来源」有官方 Releases 链接，手动下载解压后，在开挖页点「选择本地内核」指定 exe 即可。
 
-**收益和矿池显示不一样？** 看板用全网算力 × 区块奖励估算，矿池按实际提交份额结算，短时间有浮动，跑满一天再对比。
+**收益和矿池显示不一样？** 工具用全网算力 × 区块奖励估算，矿池按实际提交份额结算，短时间有浮动，跑满一天再对比。
 
-**能不能只挖一部分性能？** 拖性能滑块，或直接在驱动里锁功耗墙，看板数字会跟着变。
+**能不能只挖一部分性能？** 拖性能滑块，或直接在驱动里锁功耗墙，收益数字会跟着变。
 
 **会不会上传数据？** 全部本地运行，钱包地址、配置、历史都存在 `data/config.json`。
 
@@ -91,6 +91,7 @@ minedeck/           程序本体
 - 算力参考：[hashrate.no](https://www.hashrate.no/coins/PRL/benchmarks)、[91挖](https://91wa.net/prl-pearl-gpu-overclocking-hashrate-table/)
 - 矿池教程：[K1Pool](https://k1pool.org/zh/pool/pearl/how-to-start)、[F2Pool](https://f2pool.zendesk.com/hc/zh-tw/articles/59248379419417)、[PearlPool](https://pearlpool.cloud)
 - 内核：[lpminer](https://pearl.luckypool.io/lpminer/)、[SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi)、[lolMiner](https://github.com/Lolliedieb/lolMiner-releases)
+
 
 
 

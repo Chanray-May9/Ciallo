@@ -1476,7 +1476,7 @@ class SettingsPage(QWidget):
 
         c6 = Card()
         c6.body.addWidget(h2("关于"))
-        c6.body.addWidget(label("Ciallo～(∠・ω< )⌒☆ v1.1 · 本地显卡收益看板与一键开挖工具", "muted"))
+        c6.body.addWidget(label("Ciallo～(∠・ω< )⌒☆ v1.1 · 本地显卡挖矿工具", "muted"))
         c6.body.addWidget(label("行情：whattomine / CoinGecko / CoinPaprika · "
                                 "内核：lpminer / SRBMiner-Multi / lolMiner", "tiny"))
         lay.addWidget(c6)
@@ -1600,3 +1600,4 @@ class SettingsPage(QWidget):
             sym = coins[min(self.cal_coin.currentIndex(), len(coins) - 1)].symbol
             v = self.ctx.cfg.hash_overrides.get(sym)
             self.cal_value.setText(f"{v:.6g}" if v else "")
+
