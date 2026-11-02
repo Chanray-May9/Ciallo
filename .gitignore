@@ -1,0 +1,21 @@
+# 构建产物与本地数据
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+*.exe
+
+# 本地挖矿数据与内核
+data/
+miners/
+
+# 开发期临时脚本
+_shot.py
+_probe_*.py
+_chart_*.py
+_align_check.py
+
+# 系统
+Thumbs.db
+.DS_Store
