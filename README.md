@@ -11,7 +11,7 @@
 | **一键安装（推荐）** | `CialloSetup.exe` | 双击安装到 `%LOCALAPPDATA%\Ciallo`，自动创建桌面与开始菜单快捷方式，可在「应用和功能」里卸载 |
 | 绿色版 | `Ciallo.exe` | 单文件，双击即用，不写注册表 |
 
-到 [Releases](../../releases) 页面下载最新版本。
+到 [Releases](https://github.com/Chanray-May9/Ciallo/releases/latest) 页面下载最新版本。
 
 ## 快速开始
 
@@ -91,6 +91,7 @@ minedeck/           程序本体
 - 算力参考：[hashrate.no](https://www.hashrate.no/coins/PRL/benchmarks)、[91挖](https://91wa.net/prl-pearl-gpu-overclocking-hashrate-table/)
 - 矿池教程：[K1Pool](https://k1pool.org/zh/pool/pearl/how-to-start)、[F2Pool](https://f2pool.zendesk.com/hc/zh-tw/articles/59248379419417)、[PearlPool](https://pearlpool.cloud)
 - 内核：[lpminer](https://pearl.luckypool.io/lpminer/)、[SRBMiner-Multi](https://github.com/doktor83/SRBMiner-Multi)、[lolMiner](https://github.com/Lolliedieb/lolMiner-releases)
+
 
 
 
