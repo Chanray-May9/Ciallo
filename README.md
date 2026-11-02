@@ -9,7 +9,7 @@
 | 方式 | 文件 | 说明 |
 |---|---|---|
 | **一键安装（推荐）** | `CialloSetup.exe` | 双击安装到 `%LOCALAPPDATA%\Ciallo`，自动创建桌面与开始菜单快捷方式，可在「应用和功能」里卸载 |
-| 绿色版 | `Ciallo.exe` | 单文件，双击即用，不写注册表 |
+| 单文件 | `Ciallo.exe` | 单文件，双击即用，不写注册表 |
 
 到 [Releases](https://github.com/Chanray-May9/Ciallo/releases/latest) 页面下载最新版本。
 
@@ -18,7 +18,7 @@
 | 方式 | 操作 |
 |---|---|
 | 安装版 | 双击桌面「Ciallo」图标 |
-| 绿色版 | 双击 `Ciallo.exe` |
+| 单文件 | 双击 `Ciallo.exe` |
 | 源码运行 | 双击 `启动.bat`（需要 Python 3.11+） |
 
 首次启动会自动拉取行情（whattomine / CoinGecko / CoinPaprika），并把缓存存到 `data/` 目录，断网也能用上一次的数据。
